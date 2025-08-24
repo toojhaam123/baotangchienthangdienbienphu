@@ -1,0 +1,157 @@
+@media (max-width: 575px) {
+  /* Phần banner */
+  .banner {
+    height: 50px;
+  }
+
+  .logo img {
+    width: 60px;
+    margin-top: 5px;
+  }
+
+  .star img {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .clock {
+    position: fixed;
+    right: 5px;
+    top: 2px;
+    font-size: 8px;
+  }
+  .title h1 {
+    font-size: 15px;
+    margin: 5px 0 0 0;
+  }
+
+  /* Phần nav */
+  .navbar {
+    border-radius: 0 0 15px 15px;
+  }
+  .navbar > button {
+    border: none;
+  }
+  .navbar > button:focus {
+    box-shadow: 0px 0px 5px 1px #ffffff;
+  }
+
+  /* Thẻ đăng nhập */
+  #menu_login {
+    padding: 30px 5px 5px 5px;
+  }
+  #menu_login .btn_menu_login,
+  #menu_login .btn_menu_register {
+    border: 2px rgb(255, 255, 255) solid;
+  }
+
+  #menu_login .btn_menu_login {
+    color: #ffffff;
+    background-color: #007bff;
+    border-radius: 15px 0 0 15px;
+    transition: 0.5s;
+  }
+  #menu_login .btn_menu_register {
+    color: #ffffff;
+    background-color: #28a745;
+    border-radius: 0 15px 15px 0;
+    transition: 0.5s;
+  }
+  #menu_login .btn_menu_gg button {
+    border: #ffffff solid 2px;
+    background-color: #eb4235;
+    color: white;
+  }
+
+  /* Phần home trang chủ */
+  .image_title {
+    height: 180px;
+  }
+
+  .box {
+    display: none;
+  }
+
+  .box_btn {
+    display: none;
+  }
+  /* Hiện vật mới nhất */
+  .card img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+  }
+
+  /* Trang giới thiệu bảo tàng */
+  .box-intro {
+    position: absolute;
+    width: 320px;
+    height: 70px;
+    top: 31%;
+    left: 28px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px 0 15px 0;
+  }
+  .box-intro h2 {
+    font-size: 20px;
+  }
+
+  /* Trang thư viện ảnh và video */
+  .list_gallery img {
+    width: 100%;
+    height: 145px;
+    object-fit: cover;
+  }
+  .list_gallery video {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  /* Trang triển lãm */
+  .list_exhibition img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+  }
+  .list_exhibition video {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .list_exhibition .card a {
+    height: auto;
+  }
+
+  .exhibition_detail video {
+    width: 100%;
+    height: auto;
+  }
+
+  .detail_img img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+
+  /* Form đăng ký, đăng nhập */
+  .register button {
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #28a745;
+    border-radius: 15px 0;
+  }
+  .login button {
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #007bff;
+    border-radius: 15px 0;
+  }
+
+  /* Comment */
+  .comment form label {
+    margin-left: 12px;
+  }
+  .comment form .modal-footer button {
+    margin: 5px 13px 0 0;
+  }
+}
