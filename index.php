@@ -38,7 +38,6 @@ if (isset($_SESSION['success_login'])) {
                 </div>
             </div>
         </div>
-        <h1>Xin chào mọi người</h1>
     </div>
     <div class="container-fluid footer">
         <div class="row">
