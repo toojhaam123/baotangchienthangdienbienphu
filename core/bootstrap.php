@@ -1,5 +1,4 @@
 <?php
-echo "Thêm mơi";
 // Load các controllers cần thiết
 require_once $_SERVER['DOCUMENT_ROOT'] . '/BaoTangChienThangDienBienPhu/app/controllers/C_User.php';
 require_once $_SERVER['DOCUMENT_ROOT'] . '/BaoTangChienThangDienBienPhu/app/controllers/C_Introduction.php';
