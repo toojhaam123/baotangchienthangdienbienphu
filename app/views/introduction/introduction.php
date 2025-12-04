@@ -15,7 +15,7 @@ foreach ($introductions as $introduction) {
     if ($introduction['category'] == 'introduction') { ?>
         <div class="video_intro collapse" id="video_intro">
             <video controls autoplay muted playsinline>
-                <source src="./public/uploads//imageIntroduction/<?= $introduction['image'] ?>" type="video/mp4">
+                <source src="./public/uploads/imageIntroduction/<?= $introduction['image'] ?>" type="video/mp4">
             </video>
         </div>
         <div class="row introduction mt-2">
